@@ -5,8 +5,42 @@
     --Apenas fiz um cadastro de base de convidados e um link para os convidados fazerem o chekIn<br>
 </h5>
 
-Esse meu projeto foi apenas para eu me desnvolver ainda mais com o laravel php.
+### Pré-requisitos
+- Composer para gerenciar dependências PHP.
+- Php 8.3.10
+- Laravel 10.46.0
+### Instalação
 
-[Baixar Banco de Dados SQL (PhpMyAdmin)](https://github.com/arthurbritosouza/mysql-phpmyaadmin)
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    cd seu-repositorio
+    ```
+
+2. Configure o ambiente:
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+3. Instale as dependências:
+    ```bash
+    composer install
+    npm install
+    ```
+
+4. Rode as migrações do banco de dados:
+    ```bash
+    php artisan migrate
+    ```
+
+5. Suba o servidor web:
+    ```bash
+    php artisan serve
+    ```
+
+### Uso
+
+Acesse [http://localhost:8000](http://localhost:8000) no seu navegador. Registre-se ou faça login para começar a gerenciar suas finanças.
 
 
